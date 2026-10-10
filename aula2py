@@ -1,0 +1,36 @@
+#lista
+
+#adiciona um dado ao final da lista
+#(lista_de_cpmpras.append("fejia")
+
+#lista_de_compras.insert(1,"sabao em po")
+
+#lista_de_compras.remover("arroz")
+
+#lista_de_compras.pop
+
+#print(lista_de_compras)
+
+#notas=[10,4,7.,5,9,8,7]
+#print(max(notas))
+#print(min(notas))maior nota10
+#print(sum(notas))menornota4
+#print(len(notas))somatodasasnotas
+#tamanhodeelem.
+#notas.remover(4)
+
+notas=[]
+notas1=int(input("digite sua notas:"))
+notas2=int(input("digite sua  notas:"))
+notas3=int(input("digite sua notas"))
+notas4=int(input("digite sua notas"))
+lista_de_notas=[notas1,notas2,notas3,notas4]
+print(f"A maior nota foi {max(lista_de_notas)}")
+print(f" a menor nota foi [min(lista_de_notas)]")
+print(f"a soma de todas as notas e igual a {sum(lista_de_notas)}")
+media=sum(lista_de_notas)/len(lista_de_notas)
+print(media)
+
+if media >=6:
+print(parabes! voce esta aprovado!")
+else:prin("nos vemos na pd!")
